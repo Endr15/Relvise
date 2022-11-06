@@ -1,0 +1,260 @@
+/* === DESKTOP FIRST === */
+
+/* xl <= Extra extra large (xxl) */
+@media (max-width : 1400px) {
+
+}
+
+/* lg <= Extra large (xl) */
+@media (max-width : 1200px) {
+
+}
+
+/* Extra size (1024px) */
+@media (max-width : 1115px) {
+   .header__content-buttons {
+      margin-top: 0;
+   }
+   .abous-us {
+      padding: 0 75px;
+   }
+   .practice {
+      padding: 0 75px;
+   }
+   .who-we {
+      padding: 0;
+   }
+   .links {
+      padding: 0 75px;
+   }
+   .links__card {
+      width: calc(100% - (75px *2) );
+   }
+   .get-in {
+      padding: 0 75px;
+   }
+   .footer__info {
+      padding: 50px 75px;
+   }
+   .footer__contact-us {
+      padding: 20px 75px;
+   }
+   .footer__description {
+      padding: 25px 75px 5px 75px;
+   }
+   .practice-card {
+      width: 100%;
+   }
+   .practice-card__image {
+      width: 100%;
+   }
+}
+
+/* md <= Large (lg) */
+@media (max-width : 992px) {
+   /* HEADER CONTETN */
+   .header__content-title {
+      font-size: 38px;
+      line-height: 45px;
+      max-width: 340px;
+   }
+   .header__content-desc {
+      font-size: 16px;
+      line-height: 20px;
+   }
+   .header__content-buttons {
+      margin-top: 5px;
+   }
+   /* CARD */
+   .card-content {
+      padding: 20px 15px 0 20px;
+   }
+   .card-image {
+      transform: scale(0.85);
+      padding-bottom: 8px;
+   }
+   .card-title {
+      font-size: 18px;
+      line-height: 24px;
+   }
+   .card-desc {
+      font-size: 12px;
+      line-height: 15px;
+   }
+
+   /* TITLE & DESC */
+
+   .title {
+      font-size: 30px;
+      line-height: 35px;
+   }
+   .desc {
+      font-size: 12px;
+      line-height: 16px;
+   }
+
+   /* ABOUT US */
+
+   .abous-us {
+      padding: 0 45px;
+   }
+
+   .abous-us__card-content {
+      padding: 0;
+      padding-top: 15px;
+   }
+   
+   /* PRACTICE */
+
+   .practice {
+      padding: 0 45px;
+      margin-top: 100px;
+   }
+   .practice-card {
+      width: 100%;
+   }
+   .practice-card__content {
+      padding: 15px 0 10px 15px;
+   }
+   .practice-card__title {
+      font-size: 14px;
+      line-height: 18px;
+   }
+   .practice-card__desc {
+      font-size: 12px;
+      line-height: 16px;
+   }
+   .practice-card__image {
+      width: 100%;
+   }
+
+   /* WHO WE */
+
+   .who-we {
+      padding: 60px 45px;
+   }
+   .who-we__text {
+      margin-bottom: 50px;
+   }
+   .who-we__image {
+      width: 100%;
+   }
+
+   .who-we__card-wrapper {
+   margin-left: 0;
+   }
+   .who-we__card-title {
+      font-size: 24px;
+      line-height: 28px;
+   }
+   .who-we__card-desc {
+      font-size: 12px;
+      line-height: 16px;
+      padding-bottom: 20px;
+   }
+
+   .who-we__card-content__title {
+      font-size: 14px;
+      line-height: 18px;
+      max-width: 215px;
+   }
+   .who-we__card-content__desc {
+      font-size: 12px;
+      line-height: 16px;
+   }
+
+   /* LINKS */
+
+   .links {
+      padding: 0 45px;
+   }
+   .links__item {
+      transform: scale(.85);
+   }
+
+   .links__card {
+      width: calc(100% - (45px *2) );
+   }
+
+   .get-in {
+      padding: 0 45px;
+   }
+   .footer__contact-us {
+      padding: 20px 80px;
+   }
+   .footer__info {
+      padding: 40px 50px;
+   }
+
+   .info__title {
+      font-size: 14px;
+      line-height: 18px;
+   }
+   .info__item-text {
+      font-size: 12px;
+      line-height: 18px;
+   }
+   .info__desc {
+      font-size: 12px;
+      line-height: 18px;
+   }
+
+   .footer__description {
+      padding: 25px 45px 5px 45px;
+   }
+
+}
+
+/* sm <= Medium (md) */
+@media (max-width : 768px) {
+
+}
+
+/* xs <= Small (sm) */
+@media (max-width : 576px) {
+
+}
+
+
+/* === MOBILE FIRST === */
+
+/* Custom (xs) */
+@media (min-width : 0) {
+
+}
+
+/* Small (sm) */
+@media (min-width : 576px) {
+
+}
+
+/* Medium (md) */
+@media (min-width : 768px) {
+
+}
+
+/* Large (lg) */
+@media (min-width : 992px) {
+
+}
+
+/* Extra large (xl) */
+@media (min-width : 1200px) {
+	.text {
+		font-size: 18px;
+	}
+}
+
+/* Extra extra large (xxl) */
+@media (min-width : 1400px) {
+	.text {
+		font-size: 22px;
+	}
+}
+
+@media (min-width : 1500px) {
+   .header {
+      background-size: cover;
+      background-color: #fff;
+   }
+}
